@@ -1,0 +1,26 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+[Guest]
+power: 1
+default_player_rank: true
+example.permission: true
+example.other_permission: false
+example.permission_with_value: 0
+
+[Player]
+power: 20
+ftbutilities.chat.name_format: <&bPlayer {name}&r>
+example.other_permission: true
+example.permission_with_value: 15
+
+[SysOp]
+power: 50
+ftbutilities.chat.name_format: <&bSysOp {name}&r>
+example.other_permission: true
+example.permission_with_value: 50
+
+[SysAdmin]
+power: 100
+default_op_rank: true
+ftbutilities.chat.name_format: <&2SysAdmin {name}&r>
+example.permission_with_value: 100
